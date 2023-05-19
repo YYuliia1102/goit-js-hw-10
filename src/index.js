@@ -2,6 +2,7 @@ import API from "./fetchCountries.js";
 
 import Notiflix from 'notiflix';
 const _ = require('lodash');
+
 const DEBOUNCE_DELAY = 300;
 const myInput = document.querySelector("#search-box");
 const list = document.querySelector('.country-list');
